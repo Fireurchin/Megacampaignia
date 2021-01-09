@@ -1,0 +1,657 @@
+﻿division_template = {
+	name = "Divisão de Infantaria"		# Infantry Division
+	division_names_group = POR_INF_01
+	# Note: each regiment could also mobilize a 3rd battalion if called up
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+	}
+	support = {
+		artillery = { x = 0 y = 0 }  # Full howitzer regiment
+		engineer = { x = 0 y = 1 }   
+	}
+}
+division_template = {
+	name = "Força de Caçadores"		# Elite light infantry, always fully mobilized w best equipment
+	division_names_group = POR_CAC_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+	}
+	priority = 2
+}
+division_template = {
+	name = "Brigada de Cavalaria" 		# Cavalry Brigade
+	division_names_group = POR_CAV_01
+	# Note: Cavalry regiments included about 5 squadrons/companies
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+	}
+}
+division_template = {
+	name = "Guarda de Montanha"						
+	division_names_group = POR_INF_01
+
+	regiments = {
+		mountaineers = { x = 0 y = 0 }
+	    mountaineers = { x = 0 y = 1 }
+		mountaineers = { x = 0 y = 2 }
+		mountaineers = { x = 1 y = 0 }
+		mountaineers = { x = 1 y = 1 }
+		mountaineers = { x = 1 y = 2 }
+		mountaineers = { x = 2 y = 0 }
+		mountaineers = { x = 2 y = 1 }
+		mountaineers = { x = 2 y = 2 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+	}
+}
+division_template = {
+	name = "Exercito da India"				
+	division_names_group = GER_LTARM_01
+
+	regiments = {
+		light_armor = { x = 0 y = 0 }		
+		motorized = { x = 1 y = 0 }			
+		motorized = { x = 1 y = 1 }
+		motorized = { x = 2 y = 0 }
+		motorized = { x = 2 y = 1 }
+	}
+	support = {
+		mot_recon = { x = 0 y = 0 }
+		engineer = { x = 0 y = 1 }
+	}
+}
+division_template = {
+	name = "Brigada Blindada"				
+	division_names_group = GER_Arm_01
+
+	regiments = {
+		light_armor = { x = 0 y = 0 }		
+		light_armor = { x = 0 y = 1 }		
+		light_armor = { x = 1 y = 0 }
+		light_armor = { x = 1 y = 1 }
+		motorized = { x = 2 y = 0 }
+		motorized = { x = 2 y = 1 }
+		motorized = { x = 2 y = 2 }
+	}
+	support = {
+		mot_recon = { x = 0 y = 0 }
+		engineer = { x = 0 y = 1 }
+	}
+}
+units = {
+	###### South American Theatre #####
+	division= {	# "1era División del Ejercito"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 12364 # Buenos Aires
+		division_template = "Brigada Blindada"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}
+	division= {	# "2da División del Ejercito"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 2
+		}
+		location = 10953 # Southern Argentina
+		division_template = "Brigada Blindada"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}
+	division= {	# "3era División del Ejercito"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 3
+		}
+		location = 7500 # Parana
+		division_template = "Brigada Blindada"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}
+	division= {	# "4ta División del Ejercito"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 4
+		}
+		location = 12942 # Cordoba
+		division_template = "Brigada Blindada"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}
+	division= {	# "5ta División del Ejercito"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 5
+		}
+		location = 8216 # Salta
+		division_template = "Brigada Blindada"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}
+	division= {	
+		name = "Brigada Blindada"
+		location = 12364 # Buenos Aires
+		division_template = "Brigada Blindada"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}
+	division= {	
+		name = "Destacamento de Montaña Cuyo"
+		location = 10992 # Mendoza
+		division_template = "Brigada Blindada"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}
+	division= {	
+		name = "Destacamento de Montaña Norte"
+		location = 8216 # Salta
+		division_template = "Brigada Blindada"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}
+	division= {	# "1era División del Ejercito"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 5230 # La Paz
+		division_template = "Brigada Blindada"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+
+	}
+	division= {	# "2da División del Ejercito"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 2
+		}
+		location = 10938 # Cochabamba
+		division_template = "Brigada Blindada"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+
+	}
+	division= {	# "3era División del Ejercito"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 3
+		}
+		location = 2160 # Santa Cruz
+		division_template = "Brigada Blindada"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+
+	}
+	division= {	# "4ta División del Ejercito"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 4
+		}
+		location = 2174 # Tarija
+		division_template = "Brigada Blindada"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+
+	}
+	division= {	
+		name = "Brigada Blindada"
+		location = 5230 # La Paz
+		division_template = "Brigada Blindada"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+
+	}
+	division= {	# "1era División del Ejercito"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 650 # Santiago
+		division_template = "Brigada Blindada"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+
+	}
+	division= {	# "2da División del Ejercito"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 2
+		}
+		location = 12994 # Antofagasta
+		division_template = "Brigada Blindada"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+
+	}
+	division= {	# "3era División del Ejercito"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 3
+		}
+		location = 5121 # Concepcion
+		division_template = "Brigada Blindada"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+
+	}
+	division= {	
+		name = "Brigada Blindada"
+		location = 650 # Santiago
+		division_template = "Brigada Blindada"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+
+	}
+	division= {	# "1era Guarda de Montanha"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 2152 # Asuncion
+		division_template = "Guarda de Montanha"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}
+	division= {	# "2da Guarda de Montanha"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 2
+		}
+		location = 2152 # Asuncion
+		division_template = "Guarda de Montanha"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}
+	
+	###### African Theatre ######
+	division= {	
+		#name = "Cape Command"
+		division_name = {    # New syntax for compatibility with name lists
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 12589 # Capetown
+		division_template = "Guarda de Montanha"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}
+	division= {	
+		#name = "Natal Command"
+		division_name = {    # New syntax for compatibility with name lists
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 1468 # Durbin
+		division_template = "Guarda de Montanha"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}
+	division= {	
+		#name = "Orange Free State Cmd."
+		division_name = {    # New syntax for compatibility with name lists
+			is_name_ordered = yes
+			name_order = 3
+		}
+		location = 12648  # Bloemfontein
+		division_template = "Guarda de Montanha"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}
+	division= {	
+		#name = "Eastern Province Cmd."
+		division_name = {    # New syntax for compatibility with name lists
+			is_name_ordered = yes
+			name_order = 4
+		}
+		location = 4696 # East London
+		division_template = "Guarda de Montanha"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}
+	division= {	
+		#name = "RH-Transvaal Command"
+		division_name = {    # New syntax for compatibility with name lists
+			is_name_ordered = yes
+			name_order = 5
+		}
+		location = 10400 # Pretoria
+		division_template = "Guarda de Montanha"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}
+	division= {	
+		#name = "Witwatersrand Command"
+		division_name = {    # New syntax for compatibility with name lists
+			is_name_ordered = yes
+			name_order = 6
+		}
+		location = 10400 # Johannesburg
+		division_template = "Guarda de Montanha"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}
+	division= {	
+		name = "East Africa Force"
+		location = 1939
+		division_template = "Brigada Blindada"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}
+	division= {	  
+		name = "Southern Africa Force"
+		location = 12911
+		division_template = "Brigada Blindada"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}
+	division= {	
+		name = "Northern Rhodesia Groups"
+		location = 1939
+		division_template = "Brigada Blindada"			# Colonial militia (lowest equipment and experience)
+		force_equipment_variants = { infantry_equipment_0 = { owner = "ENG" } }
+		start_equipment_factor = 0.3
+
+	}
+
+	###### Army of India ######
+	division= {	
+		name = "Ceylon Defense Force"
+		location = 7260
+		division_template = "Exercito da India"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "ENG" } }
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.15
+
+	}
+	division= {	# "Deccan District"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 109
+		}
+		location = 12781
+		division_template = "Exercito da India"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+	}
+	division= {	# "Bombay District"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 110
+		}
+		location = 1349
+		division_template = "Exercito da India"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+	}
+	division= {	# "Madras District"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 111
+		}
+		location = 10278
+		division_template = "Exercito da India"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+	}
+
+	###### Exército Portugues #####
+	# Governo Militar Portugues #
+	division = {
+		name = "Governo Militar Portugues"
+		location = 11805
+		division_template = "Divisão de Infantaria"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}
+	division = { # "2a Brigada de Cavalaria"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 2
+		}
+		location = 11805
+		division_template = "Brigada de Cavalaria"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}
+	division = { # "5a Força de Caçadores"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 5
+		}
+		location = 11805
+		division_template = "Força de Caçadores"
+		start_experience_factor = 0.3
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}
+
+	# 1a Distrito Militar #
+	division = { # "1a Divisão de Infantaria"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 9817
+		division_template = "Divisão de Infantaria"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}
+	division = { # "Cavalaria do Porto"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 21
+		}
+		location = 9817
+		division_template = "Brigada de Cavalaria"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}
+	division = { # "1a Força de Caçadores"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 9817
+		division_template = "Força de Caçadores"
+		start_experience_factor = 0.3
+	}
+
+	# 2a Distrito Militar #
+	division = { # "2a Divisão de Infantaria"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 2
+		}
+		location = 3798
+		division_template = "Divisão de Infantaria"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}
+	division = { # "2a Força de Caçadores"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 2
+		}
+		location = 3798
+		division_template = "Força de Caçadores"
+		start_experience_factor = 0.3
+	}
+
+	# 3a Distrito Militar #
+	division = { # "3a Divisão de Infantaria"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 3
+		}
+		location = 844
+		division_template = "Divisão de Infantaria"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}
+	division = { # "3a Força de Caçadores"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 3
+		}
+		location = 844
+		division_template = "Força de Caçadores"
+		start_experience_factor = 0.3
+	}
+
+	# 4a Distrito Militar #
+	division = { # "4a Divisão de Infantaria"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 4
+		}
+		location = 9869
+		division_template = "Divisão de Infantaria"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}
+	division = { # "2a Brigada de Cavalaria"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 2
+		}
+		location = 9869
+		division_template = "Brigada de Cavalaria"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}
+	division = { # "4a Força de Caçadores"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 4
+		}
+		location = 9869
+		division_template = "Força de Caçadores"
+		start_experience_factor = 0.3
+	}
+
+	### Colonial Forces ###
+	division = { # "Caçadores de Azores"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 21
+		}
+		location = 1751
+		division_template = "Força de Caçadores"
+		start_experience_factor = 0.3
+	}
+
+	division = { # "1a Caçadores de Angola"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 22
+		}
+		location = 8248
+		division_template = "Força de Caçadores"
+		start_experience_factor = 0.3
+	}
+	division = { # "2a Caçadores de Angola"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 23
+		}
+		location = 10966
+		division_template = "Força de Caçadores"
+		start_experience_factor = 0.3
+	}
+
+	division = { # "1a Caçadores de Moçambique"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 24
+		}
+		location = 8245
+		division_template = "Força de Caçadores"
+		start_experience_factor = 0.3
+	}
+	division = { # "2a Caçadores de Moçambique"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 25
+		}
+		location = 8245
+		division_template = "Força de Caçadores"
+		start_experience_factor = 0.3
+	}
+}
+
+
+### Aeronáutica Militar ###
+air_wings = {
+	112 = {
+		# Noite Esquadrão de Bombardeiro  -- Ju 52/3m bombers
+		tac_bomber_equipment_0 = {
+			owner = "POR" 
+			amount = 12
+		}
+		# Dia Esquadrão de Bombardeiro  -- Vickers Valparaiso light bombers
+		CAS_equipment_1 = {
+			owner = "POR" 
+			amount = 12
+		}
+	}
+}
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_1
+			creator = "POR"
+		}
+		requested_factories = 1
+		progress = 0.47
+		efficiency = 100
+	}
+	add_equipment_production = {
+		equipment = {
+			type = support_equipment_1
+			creator = "POR"
+		}
+		requested_factories = 1
+		progress = 0.74
+		efficiency = 100
+	}
+}
