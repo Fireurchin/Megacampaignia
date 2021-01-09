@@ -1,0 +1,18 @@
+ideas = {
+	country = {		
+		counter_communist = {
+			picture = HUN_treaty_of_triannon
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes			
+			}
+			removal_cost = -1
+			modifier = {
+				stability = 0.1
+			}
+
+		}
+	}
+}

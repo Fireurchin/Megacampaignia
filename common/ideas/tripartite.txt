@@ -1,0 +1,478 @@
+ideas = {
+	country = {
+		MAN_colonial_masters = {
+			picture = generic_war_preparation
+			allowed = {
+				original_tag = AFG
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				army_org_Factor = 0.05
+				planning_speed = 0.25
+				license_purchase_cost = 0 #base cost reduction
+				ai_license_acceptance = 60 #more to AI acceptance value.
+				license_production_speed = 0.25 #speed  increase for being a license
+				license_tech_difference_speed = 0.25 #less cost increase for each tech level between the license and own tech level 
+				research_speed_factor = 0.07
+				army_fuel_consumption_factor = -0.5
+			}
+		}
+	}
+	political_advisor = {
+
+		MAN_jan_goudriaan = {
+
+			picture = generic_political_advisor_europe_3
+			
+			allowed = {
+				original_tag = MAN
+			}
+			
+			traits = { armaments_organizer }
+		}
+
+		MAN_fernando_dos_santos_costa = {
+	
+			picture = generic_political_advisor_europe_2
+				
+			allowed = {
+				original_tag = MAN
+			}
+			
+			traits = { war_industrialist }
+		}
+
+		MAN_demetrius_songgotu_zhanshan = {
+
+			picture = generic_political_advisor_asia_1
+			
+			allowed = {
+				original_tag = MAN
+			}
+
+			available = {
+			}
+			
+			traits = { captain_of_industry }
+		}
+
+		MAN_t_v_soong = {
+
+			picture = generic_political_advisor_asia_2
+
+			available = {
+			}
+			
+			allowed = {
+				original_tag = MAN
+			}
+			
+			traits = { financial_expert }
+		}
+	}	
+
+	army_chief = {
+
+		MAN_stefan_guan = {
+			
+			picture = generic_army_asia_4
+
+			allowed = {
+				original_tag = MAN
+			}
+			
+			traits = { army_chief_offensive_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+
+	navy_chief = {
+		
+		MAN_hein_ter_poorten = {
+			
+			picture = generic_army_europe_5
+			
+			allowed = {
+				original_tag = MAN
+			}
+			
+			traits = { navy_chief_decisive_battle_1 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+	}
+
+	air_chief = {
+		
+		MAN_manuel_gouveia = {
+				
+			picture = generic_air_europe_3
+			
+			allowed = {
+				original_tag = MAN
+			}
+			
+			traits = { air_chief_ground_support_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+	}
+
+
+	high_command = {
+
+		MAN_gao_zhihang = {
+			ledger = air
+
+			picture = CHI_gao_zihang
+			
+			allowed = {
+				original_tag = MAN
+			}
+			
+			traits = { air_air_superiority_3 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		MAN_jose_filipe_de_barros_rodrigues = {
+			ledger = army
+	
+			picture = generic_army_europe_4
+			
+			allowed = {
+				original_tag = MAN
+			}
+			
+			traits = { army_infantry_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		MAN_adrianus_rudolphus_van_den_bent = {
+			ledger = army
+
+			picture = generic_army_europe_1
+			
+			allowed = {
+				original_tag = MAN
+			}
+			
+			traits = { army_logistics_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+
+
+
+	theorist = {
+		MAN_jose_norton_de_matos = {
+			ledger = army
+
+			picture = generic_army_europe_1
+			
+			allowed = {
+				original_tag = MAN
+			}
+			
+			research_bonus = {
+				land_doctrine = 0.10
+			}
+			
+			traits = { military_theorist }
+		}
+
+		MAN_xian_yuan = {
+			ledger = navy
+
+			picture = generic_navy_asia_1
+			
+			allowed = {
+				original_tag = MAN
+			}
+			
+			research_bonus = {
+				naval_doctrine = 0.10
+			}
+			
+			traits = { naval_theorist }
+		}
+		
+		MAN_marius_raaijmakers = {
+			ledger = air
+			
+			picture = generic_air_europe_1
+			
+			allowed = {
+				original_tag = MAN
+			}
+			
+			research_bonus = {
+				air_doctrine = 0.10
+			}
+			
+			traits = { air_warfare_theorist }
+		}
+	}
+
+	aircraft_manufacturer = {
+		designer = yes
+
+		MAN_manshu = {
+
+			picture = generic_air_manufacturer_1
+
+			available = {
+				controls_state = 714
+			}
+
+			allowed = {
+				original_tag = MAN
+				NOT = { has_dlc = "Waking the Tiger" }
+			}
+			
+			research_bonus = {
+				air_equipment = 0.15
+			}
+			
+			traits = { light_aircraft_manufacturer }
+						
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		MAN_mamc_light = {
+
+			picture = generic_air_manufacturer_1
+
+			available = {
+				has_completed_focus = MAN_mamc
+			}
+
+			allowed = {
+				original_tag = MAN
+				has_dlc = "Waking the Tiger"
+			}
+
+			cost = 75
+			
+			research_bonus = {
+				air_equipment = 0.15
+			}
+			
+			traits = { light_aircraft_manufacturer }
+						
+			ai_will_do = {
+				factor = 1
+			}
+		}
+		MAN_mamc_medium = {
+
+			picture = generic_air_manufacturer_1
+
+			available = {
+				has_completed_focus = MAN_mamc
+			}
+
+			allowed = {
+				original_tag = MAN
+				has_dlc = "Waking the Tiger"
+			}
+
+			cost = 75
+			
+			research_bonus = {
+				air_equipment = 0.15
+			}
+			
+			traits = { medium_aircraft_manufacturer }
+						
+			ai_will_do = {
+				factor = 1
+			}
+		}
+		MAN_mamc_heavy = {
+
+			picture = generic_air_manufacturer_1
+
+			available = {
+				has_completed_focus = MAN_mamc
+			}
+
+			allowed = {
+				original_tag = MAN
+				has_dlc = "Waking the Tiger"
+			}
+
+			cost = 75
+			
+			research_bonus = {
+				air_equipment = 0.15
+			}
+			
+			traits = { heavy_aircraft_manufacturer }
+						
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+	}
+	industrial_concern = {
+		TRP_south_manchuria_railway_company = {
+
+			picture = generic_industrial_concern_2			
+			
+			available = {
+				
+			}
+
+			allowed = {
+				has_dlc = "Waking the Tiger"
+				original_tag = MAN
+			}
+
+			traits = {
+				construction_company
+			}
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+	tank_manufacturer = { 
+		
+		designer = yes
+		
+		MAN_khalid_armor = {
+
+			picture = generic_armor
+			
+			allowed = {
+				original_tag = MAN
+			}
+			
+			research_bonus = {
+				armor = 0.15
+			}
+			
+			traits = { heavy_tank_manufacturer }
+
+			ai_will_do = {
+				factor = 10
+			}
+
+		}
+		
+		MAN_de_avis = {
+
+		picture = generic_motorized_equipment_manufacturer_2
+			
+			allowed = {
+				original_tag = MAN
+			}
+			
+			research_bonus = {
+				armor = 0.15
+			}
+			
+			traits = { fast_tank_manufacturer }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+
+	materiel_manufacturer = {
+		designer = yes
+		MAN_spatacus = {
+
+			picture = Legionary_values
+
+			allowed = {
+				original_tag = MAN
+			}
+			
+			research_bonus = {
+				naval_equipment = 0.15
+			}
+			
+			equipment_bonus = {
+				
+			}
+			
+			traits = { atlantic_fleet_naval_manufacturer }
+			
+		}
+	}
+	
+	naval_manufacturer = { 
+		
+		designer = yes
+		
+		MAN_honghai = {
+
+			picture = generic_navy_carrier_bonus
+
+			allowed = {
+				original_tag = MAN
+			}
+			
+			research_bonus = {
+				naval_equipment = 0.15
+			}
+			
+			equipment_bonus = {
+				
+			}
+			
+			traits = { atlantic_fleet_naval_manufacturer }
+			
+		}
+		
+		MAN_marineer = {
+
+		picture = generic_coastal_defense_ships2
+			
+			allowed = {
+				original_tag = MAN
+			}
+			
+			research_bonus = {
+				naval_equipment = 0.15
+			}
+			
+			traits = { raiding_fleet_naval_manufacturer }
+			
+			equipment_bonus = {
+				
+			}
+			
+		}	
+	}
+}

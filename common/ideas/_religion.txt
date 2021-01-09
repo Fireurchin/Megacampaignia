@@ -1,0 +1,215 @@
+ideas = {
+
+	country = {
+		state_catholic = {
+			
+			allowed = {
+				always = no # Triggered via event
+			}
+
+			picture = state_catholic
+			
+			modifier = {
+			}
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		state_orthodox = {
+			
+			allowed = {
+				always = no # Triggered via event
+			}
+
+			picture = state_orthodox
+			
+			modifier = {
+			}
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		state_miaphysite = {
+			
+			allowed = {
+				always = no # Triggered via event
+			}
+
+			picture = state_miaphysite
+			
+			modifier = {
+			}
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		state_nestorian = {
+			
+			allowed = {
+				always = no # Triggered via event
+			}
+
+			picture = state_nestorian
+			
+			modifier = {
+			}
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		state_protestant = {
+			
+			allowed = {
+				always = no # Triggered via event
+			}
+
+			picture = state_protestant
+			
+			modifier = {
+			}
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		islamic_state = {
+			
+			allowed = {
+				always = no # Triggered via event
+			}
+
+			picture = islamic_state
+			
+			modifier = {
+			}
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		state_sufi = {
+			
+			allowed = {
+				always = no # Triggered via event
+			}
+
+			picture = state_sufi
+			
+			modifier = {
+			}
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		state_confucian = {
+			
+			allowed = {
+				always = no # Triggered via event
+			}
+
+			picture = state_confucian
+			
+			modifier = {
+			}
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		state_manichean = {
+			
+			allowed = {
+				always = no # Triggered via event
+			}
+
+			picture = state_manichean
+			
+			modifier = {
+			}
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		state_buddhist = {
+			
+			allowed = {
+				always = no # Triggered via event
+			}
+
+			picture = state_buddhist
+			
+			modifier = {
+			}
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		state_hindu = {
+			
+			allowed = {
+				always = no # Triggered via event
+			}
+
+			picture = state_hindu
+			
+			modifier = {
+			}
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		state_tengri = {
+			
+			allowed = {
+				always = no # Triggered via event
+			}
+
+			picture = state_tengri
+			
+			modifier = {
+			}
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		secular_state = {
+			
+			allowed = {
+				always = no # Triggered via event
+			}
+
+			picture = generic_deal_with_the_devil
+			
+			modifier = {
+			}
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		state_atheism = {
+			
+			allowed = {
+				always = no # Triggered via event
+			}
+
+			picture = generic_oppression
+			
+			modifier = {
+			}
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}
+	}
+}
