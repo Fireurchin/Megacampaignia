@@ -1,0 +1,88 @@
+spriteTypes = {
+
+	 ## HOLY INFANTRY UNITS START ##
+	 # NAMES: knight_unit , saint_unit , choir_unit #
+	 # SAMPLE START #
+	 
+	 #spriteType = { name = "GFX_unit_<UNITNAME>_icon_medium"								texturefile = "gfx/units/infantry/<FOLDERNAME>/<UNITNAME>_icon.dds" noOfFrames = 2}
+	 
+	 #spriteType = { name = "GFX_unit_<UNITNAME>_icon_medium_white"								texturefile = "gfx/units/infantry/<FOLDERNAME>/onmap_<UNITNAME>_icon.dds" noOfFrames = 2}
+	 
+	 #spriteType = { name = "GFX_nato_unit_<UNITNAME>_icon_small"								texturefile = "gfx/units/infantry/<FOLDERNAME>/nato_<UNITNAME>_icon.dds" legacy_lazy_load = no}
+	 
+	 #spriteType = { name = "GFX_unit_<UNITNAME>_icon_small"								texturefile = "gfx/units/infantry/<FOLDERNAME>/<UNITNAME>_icon_small.dds" noOfFrames = 2 legacy_lazy_load = no}
+	 
+	 # SAMPLE END #
+#-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------	 	 
+	 # KNIGHT UNIT START #
+	 
+ 	spriteType = { name = "GFX_unit_knight_unit_icon_medium"								texturefile = "gfx/units/infantry/knight/knight_unit_icon.dds" noOfFrames = 2}
+	 
+	spriteType = { name = "GFX_unit_knight_unit_icon_medium_white"								texturefile = "gfx/units/infantry/knight/onmap_knight_unit_icon.dds" noOfFrames = 2}
+	 
+	spriteType = { name = "GFX_nato_unit_knight_unit_icon_small"								texturefile = "gfx/units/infantry/knight/nato_knight_unit_icon.dds" legacy_lazy_load = no}
+	 
+	spriteType = { name = "GFX_unit_knight_unit_icon_small"								texturefile = "gfx/units/infantry/knight/knight_unit_icon_small.dds" noOfFrames = 2 legacy_lazy_load = no}
+	 
+	 # KNIGHT UNIT END #
+#-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------	 	 
+	 # SAINT UNIT START #
+	 
+	spriteType = { name = "GFX_unit_saint_unit_icon_medium"								texturefile = "gfx/units/infantry/saint/saint_unit_icon.dds" noOfFrames = 2}
+	 
+	spriteType = { name = "GFX_unit_saint_unit_icon_medium_white"								texturefile = "gfx/units/infantry/saint/onmap_saint_unit_icon.dds" noOfFrames = 2}
+	 
+	spriteType = { name = "GFX_nato_unit_saint_unit_icon_small"								texturefile = "gfx/units/infantry/saint/nato_saint_unit_icon.dds" legacy_lazy_load = no}
+	 
+	spriteType = { name = "GFX_unit_saint_unit_icon_small"								texturefile = "gfx/units/infantry/saint/saint_unit_icon_small.dds" noOfFrames = 2 legacy_lazy_load = no}
+	 
+	 # SAINT UNIT END #
+#-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------	 	 
+	 # CHOIR UNIT START #
+	 
+	spriteType = { name = "GFX_unit_choir_unit_icon_medium"								texturefile = "gfx/units/infantry/choir/choir_unit_icon.dds" noOfFrames = 2}
+	 
+	spriteType = { name = "GFX_unit_choir_unit_icon_medium_white"								texturefile = "gfx/units/infantry/choir/onmap_choir_unit_icon.dds" noOfFrames = 2}
+	 
+	spriteType = { name = "GFX_nato_unit_choir_unit_icon_small"								texturefile = "gfx/units/infantry/choir/nato_choir_unit_icon.dds" legacy_lazy_load = no}
+	 
+	spriteType = { name = "GFX_unit_choir_unit_icon_small"								texturefile = "gfx/units/infantry/choir/choir_unit_icon_small.dds" noOfFrames = 2 legacy_lazy_load = no}
+	
+	 # CHOIR UNIT END #
+#-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------	 	 
+	 ## HOLY INFANTRY UNITS END ##
+#-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+#-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------	 
+	 ## CYBER INFANTRY UNITS START ##
+#-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------	 
+	 # DRONE GUN UNITS START #
+	 
+	spriteType = { name = "GFX_unit_drone_gun_unit_icon_medium"								texturefile = "gfx/units/infantry/dronegun/drone_gun_unit_icon.dds" noOfFrames = 2}
+	 
+	spriteType = { name = "GFX_unit_drone_gun_unit_icon_medium_white"								texturefile = "gfx/units/infantry/dronegun/onmap_drone_gun_unit_icon.dds" noOfFrames = 2}
+	 
+	spriteType = { name = "GFX_nato_unit_drone_gun_unit_icon_small"								texturefile = "gfx/units/infantry/dronegun/nato_drone_gun_unit_icon.dds" legacy_lazy_load = no}
+	 
+	spriteType = { name = "GFX_unit_drone_gun_unit_icon_small"								texturefile = "gfx/units/infantry/dronegun/drone_gun_unit_icon_small.dds" noOfFrames = 2 legacy_lazy_load = no}	 
+	 
+	 # DRONE GUN UNITS END #
+#-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------	 
+	 # DRONE INFANTRY START #
+	
+	spriteType = { name = "GFX_unit_drone_infantry_unit_icon_medium"								texturefile = "gfx/units/infantry/droneinfantry/drone_infantry_unit_icon.dds" noOfFrames = 2}
+	 
+	spriteType = { name = "GFX_unit_drone_infantry_unit_icon_medium_white"								texturefile = "gfx/units/infantry/droneinfantry/onmap_drone_infantry_unit_icon.dds" noOfFrames = 2}
+	 
+	spriteType = { name = "GFX_nato_unit_drone_infantry_unit_icon_small"								texturefile = "gfx/units/infantry/droneinfantry/nato_drone_infantry_unit_icon.dds" legacy_lazy_load = no}
+	 
+	spriteType = { name = "GFX_unit_drone_infantry_unit_icon_small"								texturefile = "gfx/units/infantry/droneinfantry/drone_infantry_unit_icon_small.dds" noOfFrames = 2 legacy_lazy_load = no}	 
+	 
+	 # DRONE INFANTRY END #
+#-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------	 
+	 ## CYBER INFANTRY UNITS END ##
+#-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+#-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+	 ## BIO INFANTRY START ##
+	 
+	 ## BIO INFANTRY END ##
+}

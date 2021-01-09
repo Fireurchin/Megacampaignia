@@ -1,0 +1,36 @@
+spriteTypes = {
+
+	spriteType = {
+		name = "GFX_techtree_advanced_industrial_robotics"
+		textureFile = "gfx\interface\technologies\Generic\Industry\advanced_industrial_robotics.dds"
+	}
+	spriteType = {
+		name = "GFX_techtree_computing1"
+		textureFile = "gfx\interface\technologies\Generic\Industry\computing1.dds"
+	}
+	spriteType = {
+		name = "GFX_techtree_computing2"
+		textureFile = "gfx\interface\technologies\Generic\Industry\computing2.dds"
+	}
+	spriteType = {
+		name = "GFX_techtree_computing3"
+		textureFile = "gfx\interface\technologies\Generic\Industry\computing3.dds"
+	}
+	spriteType = {
+		name = "GFX_techtree_computing4"
+		textureFile = "gfx\interface\technologies\Generic\Industry\computing4.dds"
+	}
+	spriteType = {
+		name = "GFX_techtree_computing5"
+		textureFile = "gfx\interface\technologies\Generic\Industry\computing5.dds"
+	}
+	spriteType = {
+		name = "GFX_techtree_computing6"
+		textureFile = "gfx\interface\technologies\Generic\Industry\computing6.dds"
+	}
+	spriteType = {
+		name = "GFX_techtree_data_mining"
+		textureFile = "gfx\interface\technologies\Generic\Industry\data_mining.dds"
+	}
+	
+}

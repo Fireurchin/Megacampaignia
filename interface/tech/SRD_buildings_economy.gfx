@@ -1,0 +1,173 @@
+spriteTypes = {
+#-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+	 #### SAMPLE START ####
+	 
+	 #spriteType = {name = "GFX_<FOLDER>_economic_improvement_technology_<NUMBER>_medium" texturefile = "gfx/technology/building/<FOLDER>/<FOLDER>_economic_improvement_technology_<NUMBER>.dds"}
+	 
+	 #spriteType = {name = "GFX_<FOLDER>_building_technology_<NUMBER>_medium" texturefile = "gfx/technology/building/<FOLDER>/<FOLDER>_building_technology_<NUMBER>.dds"}
+	 
+	 #### SAMPLE END ####
+#-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+	 ### HOLY TREE START ###
+#-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+	 ## HOLY ECONOMIC IMPROVEMENTS START ##
+	 
+	spriteType = {name = "GFX_holy_economic_improvement_technology_1_medium" texturefile = "gfx/technology/building/holy/holy_economic_improvement_technology_1.dds"}
+	
+	spriteType = {name = "GFX_holy_economic_improvement_technology_2_medium" texturefile = "gfx/technology/building/holy/holy_economic_improvement_technology_2.dds"}
+	
+	spriteType = {name = "GFX_holy_economic_improvement_technology_3_medium" texturefile = "gfx/technology/building/holy/holy_economic_improvement_technology_3.dds"}
+	
+	spriteType = {name = "GFX_holy_economic_improvement_technology_4_medium" texturefile = "gfx/technology/building/holy/holy_economic_improvement_technology_4.dds"}
+	
+	spriteType = {name = "GFX_holy_economic_improvement_technology_5_medium" texturefile = "gfx/technology/building/holy/holy_economic_improvement_technology_5.dds"}
+	
+	 ## HOLY ECONOMIC IMPROVEMENTS END ##
+#-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------	 
+	 ## HOLY BUILDING TECH START ##
+	 
+	spriteType = {name = "GFX_holy_building_technology_1_medium" texturefile = "gfx/technology/building/holy/holy_building_technology_1.dds"}
+	
+	spriteType = {name = "GFX_holy_building_technology_2_medium" texturefile = "gfx/technology/building/holy/holy_building_technology_2.dds"}
+	
+	spriteType = {name = "GFX_holy_building_technology_3_medium" texturefile = "gfx/technology/building/holy/holy_building_technology_3.dds"}
+	 
+	 ## HOLY BUILDING TECH END ##
+#-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------	 
+	 ### HOLY TREE END ##
+#-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------	 
+#-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------	 
+	 ### BIO TREE START ###
+#-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------	 
+	 ## BIO ECONOMIC IMPROVEMENTS START ##
+	 
+	 ## BIO ECONOMIC IMPROVEMENTS END ##
+#-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------	 
+	 ## BIO BUILDING TECH START ##
+	 
+	 
+	 
+	 ## BIO BUILDING TECH END ##
+#-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------	 
+	 ### BIO TREE END ###
+#-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------	
+#-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------	
+	 ### CYBER TREE START ###
+#-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------	
+	 ## CYBER ECONOMIC IMPROVEMENTS START ##
+	 
+	spriteType = {name = "GFX_cyber_starting_technology_1_medium" texturefile = "gfx/technology/building/cyber/cyber_starting_technology_1.dds"}
+	
+	spriteType = {name = "GFX_cyber_starting_technology_2_medium" texturefile = "gfx/technology/building/cyber/cyber_starting_technology_2.dds"}
+	
+	spriteType = {name = "GFX_cyber_mech_starting_technology_1_medium" texturefile = "gfx/technology/building/cyber/cyber_mech_starting_technology_1.dds"}
+	
+	spriteType = {name = "GFX_cyber_mech_starting_technology_2_medium" texturefile = "gfx/technology/building/cyber/cyber_mech_starting_technology_2.dds"}
+		
+	spriteType = {name = "GFX_cyber_cybernetic_starting_technology_1_medium" texturefile = "gfx/technology/building/cyber/cyber_cybernetic_starting_technology_1.dds"}
+	
+	spriteType = {name = "GFX_cyber_cybernetic_starting_technology_2_medium" texturefile = "gfx/technology/building/cyber/cyber_cybernetic_starting_technology_2.dds"}
+			
+	spriteType = {name = "GFX_cyber_robot_starting_technology_1_medium" texturefile = "gfx/technology/building/cyber/cyber_robot_starting_technology_1.dds"}
+
+	spriteType = {name = "GFX_cyber_robot_starting_technology_2_medium" texturefile = "gfx/technology/building/cyber/cyber_robot_starting_technology_2.dds"}
+	
+	spriteType = {name = "GFX_cyber_building_improvement_technology_1_medium" texturefile = "gfx/technology/building/cyber/cyber_building_improvement_technology_1.dds"}
+	
+	spriteType = {name = "GFX_cyber_building_improvement_technology_2_medium" texturefile = "gfx/technology/building/cyber/cyber_building_improvement_technology_2.dds"}
+	
+	spriteType = {name = "GFX_cyber_building_improvement_technology_3_medium" texturefile = "gfx/technology/building/cyber/cyber_building_improvement_technology_3.dds"}
+	
+	spriteType = {name = "GFX_cyber_automation_improvement_technology_2_medium" texturefile = "gfx/technology/building/cyber/cyber_automation_improvement_technology_2.dds"}
+	
+	spriteType = {name = "GFX_cyber_automation_improvement_technology_3_medium" texturefile = "gfx/technology/building/cyber/cyber_automation_improvement_technology_3.dds"}
+	
+	spriteType = {name = "GFX_cyber_automation_improvement_technology_4_medium" texturefile = "gfx/technology/building/cyber/cyber_automation_improvement_technology_4.dds"}
+
+	spriteType = {name = "GFX_cyber_automation_improvement_technology_5_medium" texturefile = "gfx/technology/building/cyber/cyber_automation_improvement_technology_5.dds"}
+	
+	spriteType = {name = "GFX_cyber_automation_improvement_technology_6_medium" texturefile = "gfx/technology/building/cyber/cyber_automation_improvement_technology_6.dds"}
+	
+	spriteType = {name = "GFX_cyber_industry_improvement_technology_1_medium" texturefile = "gfx/technology/building/cyber/cyber_industry_improvement_technology_1.dds"}
+
+	spriteType = {name = "GFX_cyber_industry_improvement_technology_2_medium" texturefile = "gfx/technology/building/cyber/cyber_industry_improvement_technology_2.dds"}
+	
+	spriteType = {name = "GFX_cyber_industry_improvement_technology_3_medium" texturefile = "gfx/technology/building/cyber/cyber_industry_improvement_technology_3.dds"}
+	
+	spriteType = {name = "GFX_cyber_industry_improvement_technology_4_medium" texturefile = "gfx/technology/building/cyber/cyber_industry_improvement_technology_4.dds"}
+
+	spriteType = {name = "GFX_cyber_industry_improvement_technology_5_medium" texturefile = "gfx/technology/building/cyber/cyber_industry_improvement_technology_5.dds"}
+	
+	spriteType = {name = "GFX_cyber_industry_improvement_technology_6_medium" texturefile = "gfx/technology/building/cyber/cyber_industry_improvement_technology_6.dds"}
+
+	 ## CYBER ECONOMIC IMPROVEMENTS END ##
+#-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------	
+	 ## CYBER BUILDING TECH START ##
+	 
+	spriteType = {name = "GFX_cyber_building_technology_1_medium" texturefile = "gfx/technology/building/cyber/cyber_building_technology_1.dds"}
+		
+	spriteType = {name = "GFX_cyber_building_technology_1_1_medium" texturefile = "gfx/technology/building/cyber/cyber_building_technology_1_1.dds"}
+
+	spriteType = {name = "GFX_cyber_building_technology_2_medium" texturefile = "gfx/technology/building/cyber/cyber_building_technology_2.dds"}
+		
+	spriteType = {name = "GFX_cyber_building_technology_2_1_medium" texturefile = "gfx/technology/building/cyber/cyber_building_technology_2_1.dds"}
+	
+	spriteType = {name = "GFX_cyber_building_technology_3_medium" texturefile = "gfx/technology/building/cyber/cyber_building_technology_3.dds"}
+		
+	spriteType = {name = "GFX_cyber_building_technology_3_1_medium" texturefile = "gfx/technology/building/cyber/cyber_building_technology_3_1.dds"}
+
+	spriteType = {name = "GFX_cyber_cybernetic_super_computer_building_technology_1_medium" texturefile = "gfx/technology/building/cyber/cyber_cybernetic_super_computer_building_technology_1.dds"}
+	spriteType = {name = "GFX_cyber_cybernetic_super_computer_building_DLC_technology_1_medium" texturefile = "gfx/technology/building/cyber/cyber_cybernetic_super_computer_building_technology_1.dds"}
+
+	 
+	 ## CYBER BUILDING TECH END ##
+#-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------	
+	 ## CYBER CYBERNETIC IMPROVEMENT TECH START ##
+
+	spriteType = {name = "GFX_cyber_cybernetic_military_technology_1_medium" texturefile = "gfx/technology/building/cyber/cyber_cybernetic_military_technology_1.dds"}
+
+	spriteType = {name = "GFX_cyber_cybernetic_military_technology_2_medium" texturefile = "gfx/technology/building/cyber/cyber_cybernetic_military_technology_2.dds"}
+		
+	spriteType = {name = "GFX_cyber_cybernetic_military_technology_3_medium" texturefile = "gfx/technology/building/cyber/cyber_cybernetic_military_technology_3.dds"}
+
+#-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------	
+	
+	spriteType = {name = "GFX_cyber_cybernetic_civilian_technology_1_medium" texturefile = "gfx/technology/building/cyber/cyber_cybernetic_civilian_technology_1.dds"}
+
+	spriteType = {name = "GFX_cyber_cybernetic_civilian_technology_2_medium" texturefile = "gfx/technology/building/cyber/cyber_cybernetic_civilian_technology_2.dds"}
+		
+	spriteType = {name = "GFX_cyber_cybernetic_civilian_technology_3_medium" texturefile = "gfx/technology/building/cyber/cyber_cybernetic_civilian_technology_3.dds"}
+
+#-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------	
+	
+	spriteType = {name = "GFX_cyber_cybernetic_spy_technology_1_medium" texturefile = "gfx/technology/building/cyber/cyber_cybernetic_spy_technology_1.dds"}
+
+	spriteType = {name = "GFX_cyber_cybernetic_spy_technology_2_medium" texturefile = "gfx/technology/building/cyber/cyber_cybernetic_spy_technology_2.dds"}
+		
+	spriteType = {name = "GFX_cyber_cybernetic_spy_technology_3_medium" texturefile = "gfx/technology/building/cyber/cyber_cybernetic_spy_technology_3.dds"}
+
+	spriteType = {name = "GFX_cyber_cybernetic_spy_DLC_technology_1_medium" texturefile = "gfx/technology/building/cyber/cyber_cybernetic_spy_technology_1.dds"}
+
+	spriteType = {name = "GFX_cyber_cybernetic_spy_DLC_technology_2_medium" texturefile = "gfx/technology/building/cyber/cyber_cybernetic_spy_technology_2.dds"}
+		
+	spriteType = {name = "GFX_cyber_cybernetic_spy_DLC_technology_3_medium" texturefile = "gfx/technology/building/cyber/cyber_cybernetic_spy_technology_3.dds"}		
+	 
+	 ## CYBER CYBERNETIC IMPROVEMENT TECH END ##
+#-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------		 
+	 ## CYBER DRONE IMPROVEMENT TECH START ##
+
+	spriteType = {name = "GFX_cyber_robot_improvement_technology_1_medium" texturefile = "gfx/technology/building/cyber/cyber_robot_improvement_technology_1.dds"}
+		
+	spriteType = {name = "GFX_cyber_robot_improvement_technology_2_medium" texturefile = "gfx/technology/building/cyber/cyber_robot_improvement_technology_2.dds"}
+	
+	spriteType = {name = "GFX_cyber_robot_improvement_technology_3_medium" texturefile = "gfx/technology/building/cyber/cyber_robot_improvement_technology_3.dds"}
+	 
+	 ## CYBER DRONE IMPROVEMENT TECH END ##
+#-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------		 
+	 ### CYBER TREE END ###
+#-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------	
+#-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------	
+	 
+}
+	
+	

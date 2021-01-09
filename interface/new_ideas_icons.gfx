@@ -1,0 +1,148 @@
+spriteTypes = {	
+	
+	SpriteType = {
+		name = "GFX_idea_state_orthodox"
+		texturefile = "gfx/interface/ideas/state_orthodox.dds"	
+	}
+	SpriteType = {
+		name = "GFX_idea_state_catholic"
+		texturefile = "gfx/interface/ideas/state_catholic.dds"	
+	}
+	SpriteType = {
+		name = "GFX_idea_state_miaphysite"
+		texturefile = "gfx/interface/ideas/state_miaphysite.dds"	
+	}
+	SpriteType = {
+		name = "GFX_idea_state_nestorian"
+		texturefile = "gfx/interface/ideas/state_nestorian.dds"	
+	}	
+	SpriteType = {
+		name = "GFX_idea_state_protestant"
+		texturefile = "gfx/interface/ideas/state_protestant.dds"
+	}	
+	SpriteType = {
+		name = "GFX_idea_state_manichean"
+		texturefile = "gfx/interface/ideas/state_manichean.dds"
+	}	
+	SpriteType = {
+		name = "GFX_idea_state_hindu"
+		texturefile = "gfx/interface/ideas/state_hindu.dds"	
+	}
+	SpriteType = {
+		name = "GFX_idea_state_buddhist"
+		texturefile = "gfx/interface/ideas/state_buddhist.dds"	
+	}
+	SpriteType = {
+		name = "GFX_idea_state_confucian"
+		texturefile = "gfx/interface/ideas/state_confucian.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_state_sufi"
+		texturefile = "gfx/interface/ideas/state_sufi.dds"	
+	}
+	SpriteType = {
+		name = "GFX_idea_islamic_state"
+		texturefile = "gfx/interface/ideas/islamic_state.dds"		
+	}
+	SpriteType = {
+		name = "GFX_idea_state_tengri"
+		texturefile = "gfx/interface/ideas/state_tengri.dds"		
+	}
+	SpriteType = {
+		name = "GFX_idea_eastern_tolerance"
+		texturefile = "gfx/interface/ideas/eastern_tolerance.dds"	
+	}
+	SpriteType = {
+		name = "GFX_idea_chalcedonian_tolerance"
+		texturefile = "gfx/interface/ideas/chalcedonian_tolerance.dds"	
+	}
+	SpriteType = {
+		name = "GFX_idea_enc_partial_economic_mobilisation"
+		texturefile = "gfx/interface/ideas/enc_partial_economic_mobilisation.dds"	
+	}
+	SpriteType = {
+		name = "GFX_idea_enc_idea_manpower_4"
+		texturefile = "gfx/interface/ideas/enc_idea_manpower_4.dds"	
+	}
+	SpriteType = {
+		name = "GFX_idea_enc_idea_manpower_2"
+		texturefile = "gfx/interface/ideas/enc_idea_manpower_2.dds"	
+	}
+	SpriteType = {
+		name = "GFX_idea_enc_idea_infighting"
+		texturefile = "gfx/interface/ideas/enc_idea_infighting.dds"	
+	}
+	SpriteType = {
+		name = "GFX_idea_enc_smugging"
+		texturefile = "gfx/interface/ideas/enc_smugging.dds"	
+	}
+	SpriteType = {
+		name = "GFX_idea_technocracy_focus"
+		texturefile = "gfx/interface/ideas/technocracy_focus.dds"	
+	}
+	SpriteType = {
+		name = "GFX_idea_USA_corp_reg_pro"
+		texturefile = "gfx/interface/ideas/USA_corp_reg_pro.dds"	
+	}
+	SpriteType = {
+		name = "GFX_idea_USA_dustbowl"
+		texturefile = "gfx/interface/ideas/USA_dustbowl.dds"	
+	}
+	SpriteType = {
+		name = "GFX_idea_USA_job_centres"
+		texturefile = "gfx/interface/ideas/USA_job_centres.dds"	
+	}
+	SpriteType = {
+		name = "GFX_idea_USA_land_of_the_free"
+		texturefile = "gfx/interface/ideas/USA_land_of_the_free.dds"	
+	}
+	SpriteType = {
+		name = "GFX_idea_USA_organized_crime"
+		texturefile = "gfx/interface/ideas/USA_organized_crime.dds"	
+	}
+	SpriteType = {
+		name = "GFX_idea_USA_prohibition"
+		texturefile = "gfx/interface/ideas/USA_prohibition.dds"	
+	}
+	SpriteType = {
+		name = "GFX_idea_appeal_youngmens"
+		texturefile = "gfx/interface/ideas/appeal_youngmens.dds"	
+	}
+	SpriteType = {
+		name = "GFX_idea_army_in_fire"
+		texturefile = "gfx/interface/ideas/army_in_fire.dds"	
+	}
+	SpriteType = {
+		name = "GFX_idea_Bank_Misr"
+		texturefile = "gfx/interface/ideas/Bank_Misr.dds"	
+	}
+	SpriteType = {
+		name = "GFX_idea_Black_imperialism"
+		texturefile = "gfx/interface/ideas/Black_imperialism.dds"	
+	}
+	SpriteType = {
+		name = "GFX_idea_esoteric_religion"
+		texturefile = "gfx/interface/ideas/esoteric_religion.dds"	
+	}
+	SpriteType = {
+		name = "GFX_idea_Gladiatorial_games"
+		texturefile = "gfx/interface/ideas/Gladiatorial_games.dds"	
+	}
+	SpriteType = {
+		name = "GFX_idea_Knights_of_Grail"
+		texturefile = "gfx/interface/ideas/Knights_of_Grail.dds"	
+	}
+	SpriteType = {
+		name = "GFX_idea_Legionary_values"
+		texturefile = "gfx/interface/ideas/Legionary_values.dds"	
+	}
+	SpriteType = {
+		name = "GFX_idea_Lion_Ethiopia"
+		texturefile = "gfx/interface/ideas/Lion_Ethiopia.dds"	
+	}
+	SpriteType = {
+		name = "GFX_idea_Revolt_against_modern_world"
+		texturefile = "gfx/interface/ideas/Revolt_against_modern_world.dds"	
+	}
+	
+}
