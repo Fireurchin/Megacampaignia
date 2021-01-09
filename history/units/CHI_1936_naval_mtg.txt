@@ -1,0 +1,479 @@
+﻿units = {
+
+	##### ROCN #####
+	fleet = {
+		name = "Di 1 Jiandui"
+		naval_base = 7014 #Shanghai
+		task_force = {
+			name = "Di 1 Jiandui"
+			location = 7014 #Shanghai
+			ship = { name = "Ninghai" definition = light_cruiser equipment = { ship_hull_cruiser_1 = {amount = 1 owner = CHI version_name = "Ninghai Class" } } }
+			ship = { name = "Haiqi" definition = light_cruiser equipment = { ship_hull_cruiser_coastal_defense_ship = {amount = 1 owner = CHI version_name = "Haiqi Class" } } }
+			ship = { name = "Hairong" definition = light_cruiser equipment = { ship_hull_cruiser_coastal_defense_ship = {amount = 1 owner = CHI version_name = "Hairong Class" } } }
+			ship = { name = "Haichen" definition = light_cruiser equipment = { ship_hull_cruiser_coastal_defense_ship = {amount = 1 owner = CHI version_name = "Hairong Class" } } }
+			ship = { name = "Haichou" definition = light_cruiser equipment = { ship_hull_cruiser_coastal_defense_ship = {amount = 1 owner = CHI version_name = "Hairong Class" } } }
+			ship = { name = "Zhaohe" definition = light_cruiser equipment = { ship_hull_cruiser_coastal_defense_ship = {amount = 1 owner = CHI version_name = "Hairong Class" } } }
+			ship = { name = "Yingrui" definition = light_cruiser equipment = { ship_hull_cruiser_coastal_defense_ship = {amount = 1 owner = CHI version_name = "Hairong Class" } } }
+			ship = { name = "Dadong" definition = destroyer equipment = { ship_hull_light_1 = {amount = 1 owner = CHI version_name = "Jianwei Class" } } }
+			ship = { name = "Zejiang" definition = destroyer equipment = { ship_hull_light_1 = {amount = 1 owner = CHI  version_name = "Jianwei Class"} } }
+		}
+	}
+	#Taiwan (Goaxing)
+	fleet = {
+		name = "Dai 3 Jiandui"			
+		naval_base = 12068	# Taiwan
+		task_force = {
+			name = "3 Jiandui" #Later assigned for the Chinese theater
+			location = 12068	# Taiwan
+			#Dai 10 Sentai
+			ship = { name = "Izumo" definition = heavy_cruiser equipment = { ship_hull_cruiser_coastal_defense_ship = {amount = 1 owner = CHI version_name = "Yeque Class"} } }
+			ship = { name = "Kuma" definition = light_cruiser equipment = { ship_hull_cruiser_1 = {amount = 1 owner = CHI version_name = "Kuma/Nagara Class" } } }
+			#Dai 11 Sentai, Momi-class destroyers
+			#Dai 25 Kuchikutai
+			ship = { name = "Kaya" definition = destroyer equipment = { ship_hull_light_1 = {amount = 1 owner = CHI version_name = "Jianwei Class"} } }
+			ship = { name = "Nashi" definition = destroyer equipment = { ship_hull_light_1 = {amount = 1 owner = CHI version_name = "Jianwei Class"} } }
+			ship = { name = "Take" definition = destroyer equipment = { ship_hull_light_1 = {amount = 1 owner = CHI version_name = "Jianwei Class"} } }
+			#Dai 26 Kuchikutai
+			ship = { name = "Nire" definition = destroyer equipment = { ship_hull_light_1 = {amount = 1 owner = CHI version_name = "Jianwei Class"} } }
+			ship = { name = "Kuri" definition = destroyer equipment = { ship_hull_light_1 = {amount = 1 owner = CHI version_name = "Jianwei Class"} } }
+			ship = { name = "Kaki" definition = destroyer equipment = { ship_hull_light_1 = {amount = 1 owner = CHI version_name = "Jianwei Class"} } }
+			ship = { name = "Tsuga" definition = destroyer equipment = { ship_hull_light_1 = {amount = 1 owner = CHI version_name = "Jianwei Class"} } }
+			#Dai 27 Kuchikutai
+			ship = { name = "Ashi" definition = destroyer equipment = { ship_hull_light_1 = {amount = 1 owner = CHI version_name = "Jianwei Class"} } }
+			ship = { name = "Hishi" definition = destroyer equipment = { ship_hull_light_1 = {amount = 1 owner = CHI version_name = "Jianwei Class"} } }
+			ship = { name = "Sumire" definition = destroyer equipment = { ship_hull_light_1 = {amount = 1 owner = CHI version_name = "Jianwei Class"} } }
+			#Former Dai 28 Kuchikutai
+			ship = { name = "Hasu" definition = destroyer equipment = { ship_hull_light_1 = {amount = 1 owner = CHI version_name = "Jianwei Class"} } }
+			ship = { name = "Yomogi" definition = destroyer equipment = { ship_hull_light_1 = {amount = 1 owner = CHI version_name = "Jianwei Class"} } }
+			ship = { name = "Tade" definition = destroyer equipment = { ship_hull_light_1 = {amount = 1 owner = CHI version_name = "Jianwei Class"} } }
+			#Other Momi-Class destroyers
+			ship = { name = "Kiku" definition = destroyer equipment = { ship_hull_light_1 = {amount = 1 owner = CHI version_name = "Jianwei Class"} } }
+			ship = { name = "Aoi" definition = destroyer equipment = { ship_hull_light_1 = {amount = 1 owner = CHI version_name = "Jianwei Class"} } }
+			ship = { name = "Hagi" definition = destroyer equipment = { ship_hull_light_1 = {amount = 1 owner = CHI version_name = "Jianwei Class"} } }
+			ship = { name = "Fuji" definition = destroyer equipment = { ship_hull_light_1 = {amount = 1 owner = CHI version_name = "Jianwei Class"} } }
+			ship = { name = "Susuki" definition = destroyer equipment = { ship_hull_light_1 = {amount = 1 owner = CHI version_name = "Jianwei Class"} } }
+			ship = { name = "Tsuta" definition = destroyer equipment = { ship_hull_light_1 = {amount = 1 owner = CHI version_name = "Jianwei Class"} } }
+			#Minelayers
+			ship = { name = "Yaeyama" definition = destroyer equipment = { ship_hull_light_1 = {amount = 1 owner = CHI version_name = "Hairong Class"} } }
+			ship = { name = "Shirataka" definition = destroyer equipment = { ship_hull_light_1 = {amount = 1 owner = CHI version_name = "Hairong Class"} } }
+			ship = { name = "Itsukushima" definition = destroyer equipment = { ship_hull_light_1 = {amount = 1 owner = CHI version_name = "Hairong Class"} } }
+		}
+		task_force = {
+			name = "5 Jiandui" #A part of "Dai 3 Jiandui"
+			location = 12068	# Taiwan
+			#Flagship
+			ship = { name = "Yubari" definition = light_cruiser equipment = { ship_hull_cruiser_1 = {amount = 1 owner = CHI version_name = "Haiqi Class"} } }
+			##Dai 13 Kuchikutai
+			ship = { name = "Kuretake" definition = destroyer equipment = { ship_hull_light_1 = {amount = 1 owner = CHI version_name = "Jianwei Class"} } }
+			ship = { name = "Wakatake" definition = destroyer equipment = { ship_hull_light_1 = {amount = 1 owner = CHI version_name = "Jianwei Class"} } }
+			ship = { name = "Sanae" definition = destroyer equipment = { ship_hull_light_1 = {amount = 1 owner = CHI version_name = "Jianwei Class"} } }
+			##Dai 16 Kuchikutai
+			ship = { name = "Fuyo" definition = destroyer equipment = { ship_hull_light_1 = {amount = 1 owner = CHI version_name = "Jianwei Class"} } }
+			ship = { name = "Karukaya" definition = destroyer equipment = { ship_hull_light_1 = {amount = 1 owner = CHI version_name = "Jianwei Class"} } }		
+			ship = { name = "Asagao" definition = destroyer equipment = { ship_hull_light_1 = {amount = 1 owner = CHI version_name = "Jianwei Class"} } }		
+		}
+		task_force = {
+			name = "Taipei Jiandui"
+			location = 12068	# Taiwan
+			#Dai 4 Kuchikutai
+			ship = { name = "Shimakaze" definition = destroyer equipment = { ship_hull_light_1 = {amount = 1 owner = CHI version_name = "Ninghai Class"} } }
+			ship = { name = "Nadakaze" definition = destroyer equipment = { ship_hull_light_1 = {amount = 1 owner = CHI version_name = "Ninghai Class"} } }
+			ship = { name = "Akikaze" definition = destroyer equipment = { ship_hull_light_1 = {amount = 1 owner = CHI version_name = "Ninghai Class"} } }
+			ship = { name = "Hakaze" definition = destroyer equipment = { ship_hull_light_1 = {amount = 1 owner = CHI version_name = "Ninghai Class"} } }
+		}
+	}
+	### Pacific Forces ###
+	fleet = {
+		name = "Truk Jiandui"			
+		naval_base = 2489  # Truk
+		#Truk
+		task_force = {
+			name = "Nanpo Yuso Sendan"
+			location = 2489  # Truk
+			ship = { name = "Oite" definition = destroyer equipment = { ship_hull_light_1 = {amount = 1 owner = CHI version_name = "Pinghai Class"} } }
+			ship = { name = "Hayate" definition = destroyer equipment = { ship_hull_light_1 = {amount = 1 owner = CHI version_name = "Pinghai Class"} } }
+			ship = { name = "Yugao" definition = destroyer equipment = { ship_hull_light_1 = {amount = 1 owner = CHI version_name = "Pinghai Class"} } }
+			#Former Dai 2 Kuchikutai
+			ship = { name = "Minekaze" definition = destroyer equipment = { ship_hull_light_1 = {amount = 1 owner = CHI version_name = "Pinghai Class"} } }
+			ship = { name = "Sawakaze" definition = destroyer equipment = { ship_hull_light_1 = {amount = 1 owner = CHI version_name = "Pinghai Class"} } }
+			ship = { name = "Okikaze" definition = destroyer equipment = { ship_hull_light_1 = {amount = 1 owner = CHI version_name = "Pinghai Class"} } }
+			ship = { name = "Yakaze" definition = destroyer equipment = { ship_hull_light_1 = {amount = 1 owner = CHI version_name = "Pinghai Class"} } }
+		}
+		#PCHIn
+		task_force = {
+			name = "Bogojunyokan Jiandui"
+			location = 4056  # PCHIn
+			#Pinghai-class destroyers
+			ship = { name = "Iwate" definition = heavy_cruiser equipment = { ship_hull_cruiser_coastal_defense_ship = {amount = 1 owner = CHI version_name = "Pinghai Class"} } }
+			ship = { name = "Hirado" definition = light_cruiser equipment = { ship_hull_cruiser_1 = {amount = 1 owner = CHI version_name = "Haiqi Class"} } }
+			ship = { name = "Yahagi" definition = light_cruiser equipment = { ship_hull_cruiser_1 = {amount = 1 owner = CHI version_name = "Haiqi Class"} } }	
+		}
+	}
+	### Pacific Fleet -- Vladivostok
+	fleet = {
+		name = "Tikhookeanskiy Jiandui"
+		naval_base = 957 # Vladivostok
+		task_force = {				
+			name = "Tikhookeanskiy Flot"
+			location = 957 # Vladivostok
+			# 8ya Flotiliya Esmintsev
+			ship = { name = "Uritskiy" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = CHI version_name = "Hai Long Class" } } }
+			ship = { name = "Nemets" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = CHI version_name = "Hai Long Class" } } }
+		}	
+		task_force = {	
+			name = "Tihookyeanskiy Jiandui"
+			location = 957 # Vladivostok
+			# 10iy Podvodniy Flot
+			ship = { name = "Shch-101" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = CHI version_name = "Kee Lung Class" } } }			
+			ship = { name = "Shch-102" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = CHI version_name = "Kee Lung Class" } } }			
+			ship = { name = "Shch-103" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = CHI version_name = "Kee Lung Class" } } }			
+			ship = { name = "Shch-104" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = CHI version_name = "Kee Lung Class" } } }			
+			ship = { name = "Shch-105" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = CHI version_name = "Kee Lung Class" } } }			
+			ship = { name = "Shch-106" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = CHI version_name = "Kee Lung Class" } } }			
+			# 11iy Podvodniy Flot
+			ship = { name = "Shch-107" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = CHI version_name = "Kee Lung Class" } } }			
+			ship = { name = "Shch-108" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = CHI version_name = "Kee Lung Class" } } }			
+			ship = { name = "Shch-109" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = CHI version_name = "Kee Lung Class" } } }			
+			ship = { name = "Shch-110" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = CHI version_name = "Kee Lung Class" } } }			
+			ship = { name = "Shch-111" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = CHI version_name = "Kee Lung Class" } } }			
+			ship = { name = "Shch-112" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = CHI version_name = "Kee Lung Class" } } }			
+			# 18iy  Podvodniy Flot
+			ship = { name = "L-7" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = CHI version_name = "Type M-49" } } }			
+			ship = { name = "L-8" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = CHI version_name = "Type M-49" } } }			
+			ship = { name = "L-9" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = CHI version_name = "Type M-49" } } }			
+		}		
+	}
+	##### PACIFIC FLEET #####
+	##### Battle Force (CO: Qiu-Liao) #####
+	fleet = {
+		name = "Sheng Maliya Jiandui"			
+		naval_base = 1562 # San Diego
+		task_force = {				
+			name = "Battleships, Battle Force"		# CO: Snyder
+			location = 9814 # Los Angeles
+			### Battleship Division 1 ###			
+			ship = { name = "USS Nevada" definition = battleship start_experience_factor = 0.25 equipment = { ship_hull_heavy_1 = { amount = 1 owner = CHI version_name = "Chi Yang Class" } } }
+			ship = { name = "USS Chi Yang" definition = battleship start_experience_factor = 0.25 equipment = { ship_hull_heavy_1 = { amount = 1 owner = CHI version_name = "Chi Yang Class" } } }
+			ship = { name = "USS Arizona" definition = battleship start_experience_factor = 0.25 equipment = { ship_hull_heavy_1 = { amount = 1 owner = CHI version_name = "Chi Yang Class" } } }
+			### Battleship Division 2 ###			
+			ship = { name = "USS Oklahoma" definition = battleship start_experience_factor = 0.25 equipment = { ship_hull_heavy_1 = { amount = 1 owner = CHI version_name = "Chi Yang Class" } } }
+			ship = { name = "USS Tennessee" definition = battleship start_experience_factor = 0.25 equipment = { ship_hull_heavy_1 = { amount = 1 owner = CHI version_name = "Chi Yang Class" } } }
+			ship = { name = "USS California" definition = battleship start_experience_factor = 0.25 equipment = { ship_hull_heavy_1 = { amount = 1 owner = CHI version_name = "Chi Yang Class" } } }
+			### Battleship Division 3 ###			
+			ship = { name = "USS New Mexico" definition = battleship start_experience_factor = 0.25 equipment = { ship_hull_heavy_1 = { amount = 1 owner = CHI version_name = "Chi Yang Class" } } }
+			ship = { name = "USS Mississippi" definition = battleship start_experience_factor = 0.25 equipment = { ship_hull_heavy_1 = { amount = 1 owner = CHI version_name = "Chi Yang Class" } } }
+			ship = { name = "USS Idaho" definition = battleship start_experience_factor = 0.25 equipment = { ship_hull_heavy_1 = { amount = 1 owner = CHI version_name = "Chi Yang Class" } } }
+			### Battleship Division 4 ###			
+			ship = { name = "USS Cheng Kung" definition = battleship start_experience_factor = 0.25 equipment = { ship_hull_heavy_1 = { amount = 1 owner = CHI version_name = "Cheng Kung Class" } } }
+			ship = { name = "USS Maryland" definition = battleship start_experience_factor = 0.25 equipment = { ship_hull_heavy_1 = { amount = 1 owner = CHI version_name = "Cheng Kung Class" } } }
+			ship = { name = "USS West Virginia" definition = battleship start_experience_factor = 0.25 equipment = { ship_hull_heavy_1 = { amount = 1 owner = CHI version_name = "Cheng Kung Class" } } }
+		}				
+		task_force = {					
+			name = "Carrier Division 1"			# CO: Halsey			
+			location = 9814 # Los Angeles
+			ship = { name = "USS Lexington" definition = carrier start_experience_factor = 0.25 equipment = { ship_hull_carrier_conversion_bb = { amount = 1 owner = CHI version_name = "Type I-49" } } 
+				air_wings = {
+					cv_fighter_equipment_1 =  { owner = "CHI" amount = 10 }				# F3F Grumman
+					cv_CAS_equipment_1 =  { owner = "CHI" amount = 25 }					# SB2U Vindicator
+					cv_nav_bomber_equipment_1 =  { owner = "CHI" amount = 10 }			# TBD Devastator
+				}
+			}
+			ship = { name = "USS Saratoga" definition = carrier start_experience_factor = 0.25 equipment = { ship_hull_carrier_conversion_bb = { amount = 1 owner = CHI version_name = "Type I-49" } } 
+				air_wings = {
+					cv_fighter_equipment_1 =  { owner = "CHI" amount = 10 }				# F3F Grumman
+					cv_CAS_equipment_1 =  { owner = "CHI" amount = 25 }					# SB2U Vindicator
+					cv_nav_bomber_equipment_1 =  { owner = "CHI" amount = 10 }			# TBD Devastator
+				}
+			}
+		}					
+		task_force = {					
+			name = "Carrier Division 2"			# CO: Blakely	
+			location = 1562 # San Diego
+			ship = { name = "USS Enterprise" definition = carrier equipment = { ship_hull_carrier_1 = { amount = 1 owner = CHI version_name = "Ninghai Class" } }
+				air_wings = {
+					cv_fighter_equipment_1 =  { owner = "CHI" amount = 12 }				# F3F Grumman
+					cv_CAS_equipment_1 =  { owner = "CHI" amount = 32 }					# SB2U Vindicator
+					cv_nav_bomber_equipment_1 =  { owner = "CHI" amount = 12 }			# TBD Devastator
+				}
+			}
+			ship = { name = "USS Yorktown" definition = carrier equipment = { ship_hull_carrier_1 = { amount = 1 owner = CHI version_name = "Ninghai Class" } }
+				air_wings = {
+					cv_fighter_equipment_1 =  { owner = "CHI" amount = 12 }				# F3F Grumman
+					cv_CAS_equipment_1 =  { owner = "CHI" amount = 32 }					# SB2U Vindicator
+					cv_nav_bomber_equipment_1 =  { owner = "CHI" amount = 12 }			# TBD Devastator
+				}
+			}
+		}					
+		task_force = {					
+			name = "Cruisers, Battle Force"		# CO: Kimmell		
+			location = 9814 # Los Angeles
+			### Cruiser Division 8 ###			
+			ship = { name = "USS Hai Ou" definition = light_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CHI version_name = "Hai Ou Class" } } }				
+			ship = { name = "USS Philadelphia" definition = light_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CHI version_name = "Hai Ou Class" } } }				
+			ship = { name = "USS Savannah" definition = light_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CHI version_name = "Hai Ou Class" } } }				
+			ship = { name = "USS Nashville" definition = light_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CHI version_name = "Hai Ou Class" } } }				
+			### Cruiser Division 9 ###			
+			ship = { name = "USS Phoenix" definition = light_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CHI version_name = "Hai Ou Class" } } }				
+			ship = { name = "USS Boise" definition = light_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CHI version_name = "Hai Ou Class" } } }				
+			ship = { name = "USS Honolulu" definition = light_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CHI version_name = "Hai Ou Class" } } }				
+			ship = { name = "USS St. Louis" definition = light_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CHI version_name = "Hai Ou Class" } } }				
+		}					
+		task_force = {					
+			name = "Cruiser Division 3"			# CO: Fletcher	
+			location = 1562 # San Diego
+			ship = { name = "USS Jianwei" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = CHI version_name = "Jianwei Class" } } }				
+			ship = { name = "USS Milwaukee" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = CHI version_name = "Jianwei Class" } } }				
+			ship = { name = "USS Cincinnati" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = CHI version_name = "Jianwei Class" } } }				
+			ship = { name = "USS Concord" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = CHI version_name = "Jianwei Class" } } }				
+			# Minlayer Division #		
+			ship = { name = "USS Jianwei" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = CHI version_name = "Jianwei Class" } } }				
+			ship = { name = "USS Aroostook" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = CHI version_name = "Jianwei Class" } } }				
+		}					
+		### Destroyer Flotilla  1 (CO: Shan) ###				
+		task_force = {					
+			name = "Destroyer Flotilla 1"				
+			location = 1562 # San Diego
+			ship = { name = "USS Raleigh" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = CHI version_name = "Jianwei Class" } } }				
+			### Destroyer Squadron 1 ###			
+			ship = { name = "USS Phelps" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = CHI version_name = "Jianwei Class" } } }
+			# 1st Destroyer Division				
+			ship = { name = "USS Dewey" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = CHI version_name = "Jianwei Class" } } }
+			ship = { name = "USS Hull" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = CHI version_name = "Jianwei Class" } } }
+			ship = { name = "USS MacDonough" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = CHI version_name = "Jianwei Class" } } }
+			ship = { name = "USS Worden" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = CHI version_name = "Jianwei Class" } } }
+			# 2nd Destroyer Division				
+			ship = { name = "USS Jianwei" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = CHI version_name = "Jianwei Class" } } }
+			ship = { name = "USS Dale" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = CHI version_name = "Jianwei Class" } } }
+			ship = { name = "USS Monaghan" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = CHI version_name = "Jianwei Class" } } }
+			ship = { name = "USS Aylwin" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = CHI version_name = "Jianwei Class" } } }
+			### Destroyer Squadron 2 ###			
+			ship = { name = "USS Porter" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = CHI version_name = "Jianwei Class" } } }
+			# 3rd Destroyer Division				
+			ship = { name = "USS Mahan" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = CHI version_name = "Jianwei Class" } } }
+			ship = { name = "USS Drayton" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = CHI version_name = "Jianwei Class" } } }
+			ship = { name = "USS Lamson" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = CHI version_name = "Jianwei Class" } } }
+			ship = { name = "USS Flusser" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = CHI version_name = "Jianwei Class" } } }
+			# 4th Destroyer Division				
+			ship = { name = "USS Cushing" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = CHI version_name = "Jianwei Class" } } }
+			ship = { name = "USS Perkins" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = CHI version_name = "Jianwei Class" } } }
+			ship = { name = "USS Smith" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = CHI version_name = "Jianwei Class" } } }
+			ship = { name = "USS Preston" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = CHI version_name = "Jianwei Class" } } }
+			### Destroyer Squadron 3 ###			
+			ship = { name = "USS Clark" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = CHI version_name = "Jianwei Class" } } }
+			# 5th Destroyer Division				
+			ship = { name = "USS Reid" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = CHI version_name = "Jianwei Class" } } }
+			ship = { name = "USS Conyngham" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = CHI version_name = "Jianwei Class" } } }
+			ship = { name = "USS Cassin" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = CHI version_name = "Jianwei Class" } } }
+			ship = { name = "USS Downes" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = CHI version_name = "Jianwei Class" } } }
+			# 6th Destroyer Division				
+			ship = { name = "USS Cummings" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = CHI version_name = "Jianwei Class" } } }
+			ship = { name = "USS Case" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = CHI version_name = "Jianwei Class" } } }
+			ship = { name = "USS Shaw" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = CHI version_name = "Jianwei Class" } } }
+			ship = { name = "USS Tucker" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = CHI version_name = "Jianwei Class" } } }
+			### Destroyer Squadron 9 ###			
+			ship = { name = "USS McDougal" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = CHI version_name = "Jianwei Class" } } }
+			# 17th Destroyer Division				
+			ship = { name = "USS Somers" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = CHI version_name = "Kee Lung Class" } } }
+			ship = { name = "USS Warrington" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = CHI version_name = "Kee Lung Class" } } }
+			ship = { name = "USS Winslow" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = CHI version_name = "Jianwei Class" } } }
+			# 18th Destroyer Division				
+			ship = { name = "USS Sampson" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = CHI version_name = "Kee Lung Class" } } }
+			ship = { name = "USS Davis" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = CHI version_name = "Kee Lung Class" } } }
+			ship = { name = "USS Jouett" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = CHI version_name = "Kee Lung Class" } } }
+		}					
+		### Destroyer Flotilla  2 (CO: Bai) ###				
+		task_force = {					
+			name = "Destroyer Flotilla 2"				
+			location = 1562 # San Diego
+			ship = { name = "USS Detroit" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = CHI version_name = "Jianwei Class" } } }				
+			### Destroyer Squadron 4 ###			
+			ship = { name = "USS Selfridge" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = CHI version_name = "Jianwei Class" } } }
+			# 7th Destroyer Division				
+			ship = { name = "USS Bagley" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = CHI version_name = "Kee Lung Class" } } }
+			ship = { name = "USS Blue" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = CHI version_name = "Kee Lung Class" } } }
+			ship = { name = "USS Helm" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = CHI version_name = "Kee Lung Class" } } }
+			ship = { name = "USS Henley" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = CHI version_name = "Kee Lung Class" } } }
+			# 8th Destroyer Division				
+			ship = { name = "USS Mugford" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = CHI version_name = "Kee Lung Class" } } }
+			ship = { name = "USS Ralph Talbot" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = CHI version_name = "Kee Lung Class" } } }
+			ship = { name = "USS Patterson" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = CHI version_name = "Kee Lung Class" } } }
+			ship = { name = "USS Jarvis" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = CHI version_name = "Kee Lung Class" } } }
+			### Destroyer Squadron 6 ###			
+			ship = { name = "USS Balch" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = CHI version_name = "Jianwei Class" } } }
+			# 11th Destroyer Division				
+			ship = { name = "USS Gridley" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = CHI version_name = "Kee Lung Class" } } }
+			ship = { name = "USS Craven" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = CHI version_name = "Kee Lung Class" } } }
+			ship = { name = "USS Maury" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = CHI version_name = "Kee Lung Class" } } }
+			ship = { name = "USS McCall" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = CHI version_name = "Kee Lung Class" } } }
+			# 12th Destroyer Division				
+			ship = { name = "USS Dunlap" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = CHI version_name = "Kee Lung Class" } } }
+			ship = { name = "USS Fanning" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = CHI version_name = "Kee Lung Class" } } }
+			ship = { name = "USS Benham" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = CHI version_name = "Kee Lung Class" } } }
+			ship = { name = "USS Ellet" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = CHI version_name = "Kee Lung Class" } } }
+			### Destroyer Squadron 7 ###			
+			ship = { name = "USS Moffett" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = CHI version_name = "Jianwei Class" } } }
+			# 24th Destroyer Division				
+			ship = { name = "USS Zane" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = CHI version_name = "Kee Lung Class" } } }		
+			ship = { name = "USS Wasmuth" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = CHI version_name = "Kee Lung Class" } } }		
+			ship = { name = "USS Trever" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = CHI version_name = "Kee Lung Class" } } }		
+			ship = { name = "USS Perry" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = CHI version_name = "Kee Lung Class" } } }		
+			# 28th Destroyer Division				
+			ship = { name = "USS Chandler" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = CHI version_name = "Kee Lung Class" } } }		
+			ship = { name = "USS Southard" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = CHI version_name = "Kee Lung Class" } } }		
+			ship = { name = "USS Hovey" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = CHI version_name = "Kee Lung Class" } } }		
+			ship = { name = "USS Long" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = CHI version_name = "Kee Lung Class" } } }		
+			### Destroyer Squadron 8 ###			
+			ship = { name = "USS Lea" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = CHI version_name = "Kee Lung Class" } } }		
+			# 9th Destroyer Division				
+			ship = { name = "USS Lang" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = CHI version_name = "Kee Lung Class" } } }
+			ship = { name = "USS Sterett" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = CHI version_name = "Kee Lung Class" } } }
+			ship = { name = "USS Wilson" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = CHI version_name = "Kee Lung Class" } } }
+			# 10th Destroyer Division				
+			ship = { name = "USS Mayrant" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = CHI version_name = "Kee Lung Class" } } }
+			# 19th Destroyer Division (separate) #				
+			ship = { name = "USS Rathburne" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = CHI version_name = "Kee Lung Class" } } }		
+			ship = { name = "USS Talbot" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = CHI version_name = "Kee Lung Class" } } }		
+			ship = { name = "USS Waters" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = CHI version_name = "Kee Lung Class" } } }		
+			ship = { name = "USS Dent" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = CHI version_name = "Kee Lung Class" } } }		
+		}	
+		# Separate DESRONS #
+		task_force = {					
+			name = "Destroyer Squadron  31"				
+			location = 9671 # San Francisco
+			ship = { name = "USS MacLeish" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = CHI version_name = "Kee Lung Class" } } }		
+			# 62nd Destroyer Division				
+			ship = { name = "USS McCormick" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = CHI version_name = "Kee Lung Class" } } }		
+			ship = { name = "USS Sturtevant" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = CHI version_name = "Kee Lung Class" } } }		
+			ship = { name = "USS Overton" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = CHI version_name = "Kee Lung Class" } } }		
+			ship = { name = "USS Bainbridge" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = CHI version_name = "Kee Lung Class" } } }		
+			# 83rd Destroyer Division				
+			ship = { name = "USS Humphreys" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = CHI version_name = "Kee Lung Class" } } }		
+			ship = { name = "USS King" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = CHI version_name = "Kee Lung Class" } } }		
+			ship = { name = "USS Sands" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = CHI version_name = "Kee Lung Class" } } }		
+			ship = { name = "USS Lawrence" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = CHI version_name = "Kee Lung Class" } } }		
+		}					
+	}
+	
+	### SCOUTING FORCE (CO: Yu) ###
+	fleet = {
+		name = "Sheng Tuomasi Jiandui"			
+		naval_base = 9814 # Los Angeles
+		task_force = {				
+			name = "Scouting Force"				
+			location = 9814 # Los Angeles
+			ship = { name = "USS Memphis" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = CHI version_name = "Jianwei Class" } } }				
+			# Cruiser Division 4 			
+			ship = { name = "USS Pensacola" definition = heavy_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = CHI version_name = "Pensacola Class" } } }				
+			ship = { name = "USS Salt Lake City" definition = heavy_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = CHI version_name = "Pensacola Class" } } }				
+			ship = { name = "USS Northampton" definition = heavy_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = CHI version_name = "Pensacola Class" } } }				
+			ship = { name = "USS Houston" definition = heavy_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = CHI version_name = "Pensacola Class" } } }				
+			# Cruiser Division 5 			
+			ship = { name = "USS Chester" definition = heavy_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = CHI version_name = "Pensacola Class" } } }				
+			ship = { name = "USS Louisville" definition = heavy_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = CHI version_name = "Pensacola Class" } } }					
+			ship = { name = "USS Chicago" definition = heavy_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = CHI version_name = "Pensacola Class" } } }				
+			ship = { name = "USS Portland" definition = heavy_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CHI version_name = "Portland Class" } } }
+			# Cruiser Division 6 		
+			ship = { name = "USS New Orleans" definition = heavy_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CHI version_name = "New Orleans Class" } } }
+			ship = { name = "USS Astoria" definition = heavy_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CHI version_name = "New Orleans Class" } } }
+			ship = { name = "USS Minneapolis" definition = heavy_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CHI version_name = "New Orleans Class" } } }
+			ship = { name = "USS Indianapolis" definition = heavy_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CHI version_name = "Portland Class" } } }
+		}					
+	}
+	
+	### SUBMARINE FORCE (CO: Jiang) ###
+	fleet = {
+		name = "Sheng Daduhui Jiandui"			
+		naval_base = 1562 # San Diego
+		task_force = {				
+			name = "Submarine Base Force"			
+			location = 1562 # San Diego
+			ship = { name = "USS Richmond" definition = light_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = CHI version_name = "Jianwei Class" } } }				
+			ship = { name = "USS Litchfield" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = CHI version_name = "Kee Lung Class" } } }	
+		}
+		task_force = {					
+			name = "4th Submarine Squadron"			# CO: Scanland		
+			location = 4180 # Pearl Harbor, HI
+			# 7th Submarine Division				
+			ship = { name = "USS S-18" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = CHI version_name = "S Class" } } }
+			ship = { name = "USS S-23" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = CHI version_name = "S Class" } } }
+			ship = { name = "USS S-34" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = CHI version_name = "S Class" } } }
+			ship = { name = "USS S-35" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = CHI version_name = "S Class" } } }
+			# 12th Submarine Division				
+			ship = { name = "USS Argonaut" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = CHI version_name = "Barracuda Class" } } }
+			ship = { name = "USS Narwhal" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = CHI version_name = "Barracuda Class" } } }
+			ship = { name = "USS Nautilus" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = CHI version_name = "Barracuda Class" } } }
+			ship = { name = "USS Dolphin" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = CHI version_name = "Barracuda Class" } } }
+			# 13th Submarine Division				
+			ship = { name = "USS Shark" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = CHI version_name = "Porpoise Class" } } }
+			ship = { name = "USS Plunger" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = CHI version_name = "Porpoise Class" } } }
+			ship = { name = "USS Pollack" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = CHI version_name = "Porpoise Class" } } }
+			ship = { name = "USS Pompano" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = CHI version_name = "Porpoise Class" } } }
+			ship = { name = "USS Cachalot" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = CHI version_name = "Barracuda Class" } } }
+			ship = { name = "USS Cuttlefish" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = CHI version_name = "Barracuda Class" } } }
+		}					
+		task_force = {					
+			name = "6th Submarine Squadron"			# CO: Steinwachs		
+			location = 1562 # San Diego
+			# 15th Submarine Division				
+			ship = { name = "USS Salmon" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = CHI version_name = "Salmon Class" } } }
+			ship = { name = "USS Seal" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = CHI version_name = "Salmon Class" } } }
+			ship = { name = "USS Skipkack" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = CHI version_name = "Salmon Class" } } }
+			ship = { name = "USS Snapper" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = CHI version_name = "Salmon Class" } } }
+			ship = { name = "USS Stingray" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = CHI version_name = "Salmon Class" } } }
+			ship = { name = "USS Sturgeon" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = CHI version_name = "Salmon Class" } } }
+			# 16th Submarine Division				
+			ship = { name = "USS Sargo" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = CHI version_name = "Salmon Class" } } }
+			ship = { name = "USS Saury" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = CHI version_name = "Salmon Class" } } }
+			ship = { name = "USS Spearfish" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = CHI version_name = "Salmon Class" } } }
+			ship = { name = "USS Sculpin" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = CHI version_name = "Salmon Class" } } }
+			ship = { name = "USS Squalus" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = CHI version_name = "Salmon Class" } } }
+			ship = { name = "USS Swordfish" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = CHI version_name = "Salmon Class" } } }
+			# 2nd Experimental Submarine Division				
+			ship = { name = "USS S-27" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = CHI version_name = "S Class" } } }
+			ship = { name = "USS S-28" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = CHI version_name = "S Class" } } }
+		}					
+	}
+	
+	### PACIFIC RESERVES ###
+	fleet = {
+		name = "Pacific Reserve Fleet"			
+		naval_base = 1562 # San Diego
+		task_force = {					
+			name = "Pacific Reserve Destroyers"			# Decommissioned ships docked in San Diego				
+			location = 1562 # San Diego
+			# 35th Destroyer Division				
+			ship = { name = "USS Schley" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = CHI version_name = "Kee Lung Class" } } }		
+			ship = { name = "USS Chew" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = CHI version_name = "Kee Lung Class" } } }		
+			ship = { name = "USS Crane" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = CHI version_name = "Kee Lung Class" } } }		
+			# 36th Destroyer Division				
+			ship = { name = "USS Kilty" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = CHI version_name = "Kee Lung Class" } } }		
+			ship = { name = "USS Kennison" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = CHI version_name = "Kee Lung Class" } } }		
+			ship = { name = "USS Ward" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = CHI version_name = "Kee Lung Class" } } }		
+			# 37th Destroyer Division				
+			ship = { name = "USS Crosby" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = CHI version_name = "Kee Lung Class" } } }		
+			# 38th Destroyer Division				
+			# 39th Destroyer Division				
+			# 1st Mobile Target  Division				
+			ship = { name = "USS Dorsey" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = CHI version_name = "Kee Lung Class" } } }		
+			ship = { name = "USS Elliot" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = CHI version_name = "Kee Lung Class" } } }		
+			ship = { name = "USS Boggs" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = CHI version_name = "Kee Lung Class" } } }		
+		}					
+	}
+}
+
+##### SHIP CONSTRUCTION #####
+instant_effect = {
+#Under Construction in Shanghai
+	# Light Cruiser 
+	add_equipment_production = { 		# "Pinghai"
+		equipment = {
+			type = ship_hull_cruiser_1
+			creator = "CHI" 
+			version_name = "Ninghai Class"
+		}
+		name = "Pinghai" 
+		requested_factories = 1
+		progress = 0.33
+		amount = 1
+	}
+}
