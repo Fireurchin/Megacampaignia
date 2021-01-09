@@ -1,0 +1,248 @@
+﻿capital = 7960
+
+oob = "MAN_1936"
+
+set_technology = {
+	infantry_weapons = 1
+	gw_artillery = 1
+	
+}
+
+if = {
+	limit = { has_dlc = "Waking the Tiger" }
+	set_country_flag = MAN_northern_bandits
+	set_country_flag = MAN_eastern_bandits
+	set_country_flag = MAN_western_bandits
+	add_ideas = MAN_banditry
+	add_ideas = MAN_low_legitimacy_5
+#	add_ideas = HOL_wilhelmina
+	add_ideas = secular_state
+	CHI_nine_power_treaty
+}
+
+set_convoys = 5
+
+1939.1.1 = {
+
+	add_to_war = {
+		targeted_alliance = JAP
+		enemy = CHI
+		hostility_reason = puppet
+	}
+	
+	add_political_power = 1198
+	
+	#generic focuses
+	complete_national_focus = army_effort
+	complete_national_focus = equipment_effort
+	complete_national_focus = motorization_effort
+	complete_national_focus = aviation_effort
+	complete_national_focus = naval_effort
+	complete_national_focus = flexible_navy
+	complete_national_focus = industrial_effort
+	complete_national_focus = construction_effort
+	complete_national_focus = production_effort
+
+
+	if = {
+		limit = { has_dlc = "Waking the Tiger" }
+
+		
+		#No bandits
+		unlock_national_focus = MAN_pacify_the_countryside
+		remove_ideas = MAN_banditry
+
+		complete_national_focus = MAN_army_modernization
+		complete_national_focus = MAN_mukden_military_academy
+		complete_national_focus = MAN_law_university
+		complete_national_focus = MAN_obedience
+
+		#Five year plan
+		unlock_national_focus = MAN_first_five_year_plan
+		add_timed_idea = { days = 1275 idea = MAN_five_year_plan_industry }
+
+		complete_national_focus = MAN_trade_delegation
+		complete_national_focus = MAN_expand_the_textile_industry
+		complete_national_focus = MAN_hoankyoku
+		complete_national_focus = MAN_invite_japanese_investors
+		complete_national_focus = MAN_expand_the_railways
+		complete_national_focus = MAN_develop_aluminum_sources
+		complete_national_focus = MAN_social_research_unit
+	}
+	
+	oob = "MAN_1939"
+	set_technology = {
+		#doctrines
+		grand_battle_plan = 1
+		trench_warfare = 1
+		fleet_in_being = 1
+		battlefleet_concentration = 1
+
+		#electronics
+		electronic_mechanical_engineering = 1
+		radio = 1
+		radio_detection = 1
+		mechanical_computing = 1
+
+		#industry
+		basic_machine_tools = 1
+		improved_machine_tools = 1
+		advanced_machine_tools = 1
+		fuel_silos = 1
+		construction1 = 1
+		construction2 = 1
+		dispersed_industry = 1
+		dispersed_industry2 = 1
+	}
+}
+
+set_politics = {
+	ruling_party = democratic
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	democratic = 65
+	communism = 20
+	fascism = 15
+}
+
+create_country_leader = {
+	name = "AT Van Starkenborgh"
+	
+	picture = "gfx/leaders/MAN/Portrait_Settlements_AT_Van_Starkenborgh.dds"
+	expire = "1960.1.1"
+	ideology = liberalism
+	traits = {
+	}
+}
+create_country_leader = {
+	name = "AT Van Starkenborgh"
+	
+	picture = "gfx/leaders/MAN/Portrait_Settlements_AT_Van_Starkenborgh.dds"
+	expire = "1960.1.1"
+	ideology = despotism
+	traits = {
+	}
+}
+create_country_leader = {
+	name = "Sayyed Abbas Almohri"
+	
+	picture = "gfx/leaders/MAN/Portrait_Settlements_Abbas_Almohri.dds"
+	expire = "1960.1.1"
+	ideology = rexism
+	traits = {
+	}
+}
+create_country_leader = {
+	name = "Rashid ibn Zayeed al-Abbas"
+	
+	picture = "gfx/leaders/MAN/Portrait_Settlements_Zayeed_Abbas.dds"
+	expire = "1960.1.1"
+	ideology = anarchist_communism
+	traits = {
+	}
+}
+create_corps_commander = {
+	name = "Basil Jinghui Zhang"
+	portrait_path = "gfx/leaders/MAN/Portrait_Settlements_Basil_Zhang_Jinghui.dds"
+	traits = { desert_fox }
+	skill = 4
+	
+	attack_skill = 4
+	defense_skill = 2
+	planning_skill = 3
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Hein ter Poorten"
+	portrait_path = "gfx/leaders/MAN/Portrait_Settlements_Hein_ter_Poorten.dds"
+	traits = { trickster }
+	skill = 4
+	
+	attack_skill = 2
+	defense_skill = 4
+	planning_skill = 2
+	logistics_skill = 3
+}
+
+create_corps_commander = {
+	name = "Jose Norton de Matos"
+	portrait_path = "gfx/leaders/MAN/Portrait_Settlements_Jose_Norton_de_Matos.dds"
+	traits = { commando }
+	skill = 4
+	attack_skill = 2
+	defense_skill = 3
+	planning_skill = 3
+	logistics_skill = 4
+}
+
+create_corps_commander = {
+	name = "Francis Zizhong Zhang"
+	portrait_path = "gfx/leaders/MAN/Portrait_Settlements_Francis_Zizhong_Zhang.tga"
+	traits = { career_officer }
+	skill = 3
+	
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Godfried van Voorst tot Voorst"
+	portrait_path = "gfx/leaders/MAN/Portrait_Settlements_van_Voorst_tot_Voorst_H_.tga"
+	traits = { career_officer }
+	skill = 3
+	
+	attack_skill = 2
+	defense_skill = 3
+	planning_skill = 1
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Antonio Carmona"
+	portrait_path = "gfx/leaders/MAN/Portrait_Settlements_Antonio_Carmona.tga"
+	traits = { career_officer }
+	skill = 3
+	attack_skill = 2
+	defense_skill = 1
+	planning_skill = 2
+	logistics_skill = 3
+}
+create_navy_leader = {
+	name = "Americo Thomaz"
+	picture = "Portrait_Settlements_Americo_Thomaz.tga"
+	traits = { bold battleship_adherent superior_tactician spotter }
+	skill = 4
+	attack_skill = 3
+	defense_skill = 4
+	maneuvering_skill = 4
+	coordination_skill = 3
+}
+
+create_navy_leader = {
+	name = "Robert Ho Shai Lai"
+	picture = "Portrait_Settlements_Robert_Ho_Shai_Lai.tga"
+	traits = { gentlemanly commando }
+	skill = 4
+	attack_skill = 4
+	defense_skill = 4
+	maneuvering_skill = 3
+	coordination_skill = 3
+}
+
+# Keen on planes
+create_navy_leader = {
+	name = "Maarten_van_Dulm"
+	picture = "Portrait_Settlements_Maarten_van_Dulm.tga"
+	traits = { aviation_enthusiast navy_career_officer }
+	skill = 4
+	attack_skill = 4
+	defense_skill = 3
+	maneuvering_skill = 4
+	coordination_skill = 3
+}
