@@ -1,0 +1,83 @@
+bookmarks = {
+	bookmark = {
+		name = "HEART_OF_DARKNESS_NAME"
+		desc = "HEART_OF_DARKNESS_DESC"
+		date = 1936.1.1.12
+		picture = "GFX_select_date_africa"
+		default_country = "ETH"
+		default = yes
+		
+		"ETH"={
+			history = "CHI_GATHERING_STORM_DESC"
+			ideology = neutrality
+			ideas = {
+				state_miaphysite
+			}
+			focuses = {
+			}
+		}
+		"MLI"={
+			history = "PAK_GATHERING_STORM_DESC"
+			ideology = neutrality
+			ideas = {
+				islamic_state
+			}
+			focuses = {
+			}	
+		}
+		"SUD"={
+			history = "JAP_GATHERING_STORM_DESC"
+			ideology = neutrality
+			ideas = {
+				state_miaphysite
+			}
+			focuses = {
+			}
+		}
+		"NGA"={
+			history = "PRC_GATHERING_STORM_DESC"
+			ideology = neutrality
+			ideas = {
+				islamic_state
+			}
+			focuses = {
+			}
+		}
+		"CHA"={
+			history = "ITA_GATHERING_STORM_DESC"
+			ideology = neutrality
+			ideas = {
+				islamic_state
+			}	
+			focuses = {
+			}		
+		}
+		"MOR"={
+			history = "GRE_GATHERING_STORM_DESC"
+			ideology = neutrality
+			ideas = {
+				islamic_state
+			}	
+			focuses = {
+			}			
+		}
+		"COG"={
+			history = "PAK_GATHERING_STORM_DESC"
+			ideology = democratic
+			ideas = {
+				state_catholic
+			}
+			focuses = {
+			}	
+		}
+		"SEN"={
+			history = "PAK_GATHERING_STORM_DESC"
+			ideology = democratic
+			ideas = {
+				secular_state
+			}
+			focuses = {
+			}	
+		}
+	}
+}

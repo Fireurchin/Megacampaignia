@@ -1,0 +1,95 @@
+bookmarks = {
+	bookmark = {
+		name = "HITTING_FAN_NAME"
+		desc = "HITTING_FAN_DESC"
+		date = 1936.1.1.12
+		picture = "GFX_select_date_asia"
+		default_country = "CHI"
+		default = yes
+		
+		"CHI"={
+			history = "CHI_GATHERING_STORM_DESC"
+			ideology = neutrality
+			ideas = {
+				state_orthodox
+			}
+			focuses = {
+				CHI_united_front
+				CHI_army_reform
+				CHI_invite_the_flying_tigers
+			}
+		}
+		"PAK"={
+			history = "PAK_GATHERING_STORM_DESC"
+			ideology = neutrality
+			ideas = {
+				state_manichean
+			}
+			focuses = {
+				RAJ_all_india_forward_bloc
+				RAJ_indian_gurkhas
+				RAJ_the_smiling_buddha
+			}	
+		}
+		"JAP"={
+			history = "JAP_GATHERING_STORM_DESC"
+			ideology = neutrality
+			ideas = {
+				state_shintoism
+			}
+			focuses = {
+				JAP_the_zero
+				JAP_warrior_spirit
+				JAP_strike_on_the_southern_resource_area
+			}
+		}
+		"PRC"={
+			history = "PRC_GATHERING_STORM_DESC"
+			ideology = neutrality
+			ideas = {
+				state_catholic
+			}
+			focuses = {
+				PRC_infiltration
+				PRC_maoism
+				PRC_anti_japanese_expedition
+			}
+		}
+		"BLR"={
+			history = "ITA_GATHERING_STORM_DESC"
+			ideology = fascism
+			ideas = {
+				secular_state
+			}	
+			focuses = {
+			}		
+		}
+		"CAM"={
+			history = "GRE_GATHERING_STORM_DESC"
+			ideology = democratic
+			ideas = {
+				state_catholic
+			}	
+			focuses = {
+			}			
+		}
+		"UKR"={
+			history = "PAK_GATHERING_STORM_DESC"
+			ideology = neutrality
+			ideas = {
+				state_orthodox
+			}
+			focuses = {
+			}	
+		}
+		"AFG"={
+			history = "PAK_GATHERING_STORM_DESC"
+			ideology = neutrality
+			ideas = {
+				state_orthodox
+			}
+			focuses = {
+			}	
+		}
+	}
+}

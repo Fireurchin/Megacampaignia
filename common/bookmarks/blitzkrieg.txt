@@ -1,0 +1,140 @@
+bookmarks = {
+	bookmark = {
+		name = "BLITZKRIEG_NAME"
+		desc = "BLITZKRIEG_DESC"
+		date = 1936.1.1.12
+		picture = "GFX_select_date_1939"
+		default_country = "CAN"
+		default = yes
+		
+		"CAN"={
+			history = "FRA_GATHERING_STORM_DESC"
+			ideology = democratic
+			available = { NOT = { has_dlc = "La Resistance" } }
+			ideas = {
+				state_catholic
+			}
+			focuses = {
+				FRA_form_the_popular_front
+				FRA_revive_the_national_bloc
+				FRA_france_leads
+				george_v
+			}
+		}
+		"CAN"={
+			history = "FRA_GATHERING_STORM_DESC"
+			ideology = democratic
+			available = { has_dlc = "La Resistance" } 
+			ideas = {
+				state_catholic
+			}
+			focuses = {
+				FRA_invite_communist_ministers
+				FRA_utilize_the_leagues
+				FRA_je_suis_la_deluge
+			}
+		}
+		"ELS"={
+			history = "CHI_GATHERING_STORM_DESC"
+			ideology = fascism
+			ideas = {
+				state_orthodox
+			}
+			focuses = {
+				CHI_united_front
+				CHI_army_reform
+				CHI_invite_the_flying_tigers
+			}
+		}
+		"USA"={
+			history = "ENG_GATHERING_STORM_DESC"
+			ideology = democratic
+			available = { has_dlc = "Man the Guns" }
+			ideas = {
+				state_protestant
+			}
+			focuses = {
+				USA_ban_tetrarchy
+				USA_coopt_chennault
+			}
+		}
+		"USA"={
+			history = "ENG_GATHERING_STORM_DESC"
+			ideology = democratic
+			available = { NOT = { has_dlc = "Man the Guns" } }
+			ideas = {
+				state_protestant
+			}
+			focuses = {
+				USA_ban_tetrarchy
+				USA_coopt_chennault
+			}
+		}
+		"MEX"={
+			history = "MEXICO_GATHERING_STORM_DESC"
+			ideology = neutrality
+			available = { has_dlc = "Waking the Tiger" }
+			ideas = {
+				state_catholic
+			}
+			focuses = {
+				GER_anschluss
+				GER_danzig_or_war
+				GER_revive_the_kaiserreich
+			}
+		}
+		"MEX"={
+			history = "MEX_GATHERING_STORM_DESC"
+			ideology = neutrality
+			available = { NOT = { has_dlc = "Waking the Tiger" } }
+			ideas = {
+				state_catholic
+			}
+			focuses = {
+				GER_anschluss
+				GER_danzig_or_war
+				GER_ussr_war_goal
+			}
+		}
+		"VEN"={
+			history = "ITA_GATHERING_STORM_DESC"
+			ideology = fascism
+			ideas = {
+				state_orthodox
+			}	
+			focuses = {
+				ITA_pact_of_steel
+				ITA_spanish_italian_faction
+				ITA_italy_first
+			}		
+		}
+		"COL"={
+			history = "GRE_GATHERING_STORM_DESC"
+			ideology = democratic
+			ideas = {
+				state_catholic
+			}	
+			focuses = {
+			}			
+		}
+		"BRA"={
+			history = "PAK_GATHERING_STORM_DESC"
+			ideology = democratic
+			ideas = {
+				state_catholic
+			}
+			focuses = {
+			}	
+		}
+		"PAN"={
+			history = "PAK_GATHERING_STORM_DESC"
+			ideology = democratic
+			ideas = {
+				state_catholic
+			}
+			focuses = {
+			}	
+		}
+	}
+
+}
